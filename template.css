@@ -1,0 +1,152 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 300px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+img {
+    width: 60;
+    height: 60;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .active a,
+nav a:hover {
+background-color: #da0000;
+color: white;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/mengo3.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 960px;
+}
+.column {
+    flex-direction: column;
+}
+.banner_headline {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.banner_headline h1 {
+    color: #da0000;
+    font-size: 70px;
+    text-shadow: 1px 1px 0px black;
+    margin: 0%;
+    padding: 0%;
+    max-width: 350px;
+}
+.banner_headline h2 {
+    color: #da0000;
+    font-size: 22px;
+    text-shadow: 1px 1px 0px black;
+    margin: 0%;
+    padding: 0%;
+    max-width: 350px;
+    margin-top: 30px;
+}
+.banner_opcoes {
+height: 210px;
+display: flex;
+}
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+.banner1 {
+    background-color: #da0000;
+}
+.banner2 {
+    background-color: #a80404;
+}
+.banner3 {
+    background-color:#610202
+}
+.bannertitle {
+    font-size: 21px;
+}
+.bannerdesc {
+font-size: 12px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.banner_opcoes a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color:white;
+    font-size: 12px;
+    text-decoration: none;
+}
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+flex: 2;
+}
+#geral aside {
+flex: 1;
+}
+.widgettitle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: #ff0000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar {
+width: 70px;
+height: 3px;
+background-color: #a80404;
+margin-top: 5px    ;
+}
+#not {
+    width: 165px;
+height: 3px;
+background-color: #a80404;
+margin-top: 5px;
+}
